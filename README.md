@@ -2,11 +2,15 @@
 
 **Desenvolvedor Python | Automação com IA | Bots para Instagram & WhatsApp**
 
+[![GitHub](https://img.shields.io/badge/Github-TiagoYancy-black?style=flat&logo=github)](https://github.com/TiagoYancy)
+[![Python](https://img.shields.io/badge/Python-3.14-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+
 ---
 
 ## Sobre
 
-Desenvolvedor focado em automação inteligente e bots para redes sociais. Especializado em Python, integração com APIs e inteligência artificial para criar soluções escaláveis.
+Desenvolvedor focado em automação inteligente e bots para redes sociais. Especializado em Python, integração com APIs e inteligência artificial para criar soluções escaláveis. Mantém um agente IA pessoal (Hermes) para produtividade e automação contínua.
 
 ---
 
@@ -30,13 +34,38 @@ Bot de atendimento ao cliente via WhatsApp com IA. Sistema completo com dashboar
 
 ---
 
+### ⚙️ Hermes Agent
+Agente IA pessoal para automação de tarefas, gestão de memória e orquestração de skills. Configurado com 266+ skills instaladas via GitHub.
+
+**Tecnologias:** Python, Ollama (llama3.1, qwen2.5), RTX 3060
+
+🔗 [Repositório](https://github.com/TiagoYancy/hermes-agent)
+
+---
+
+### 📦 n8n MCP Server
+Servidor MCP para integração com n8n (JSON-RPC via POST). Atualmente offline — VM 104 excluída; backup preservado.
+
+**Tecnologias:** Docker, n8n, MCP, Ollama, Qdrant
+
+---
+
 ## Habilidades
 
 - **Linguagens:** Python, JavaScript, Java
-- **Automação:** Bots para redes sociais, Web Scraping, APIs
-- **IA:** Integração com LLMs, Processamento de Linguagem Natural
-- **DevOps:** Docker, Docker Compose, Linux
-- **Banco de Dados:** SQLite, PostgreSQL
+- **Automação:** Bots para redes sociais, Web Scraping, APIs, n8n
+- **IA:** Integração com LLMs, Processamento de Linguagem Natural, Personas
+- **DevOps:** Docker, Docker Compose, Linux, Proxmox, VFIO passthrough
+- **Banco de Dados:** SQLite, PostgreSQL, Qdrant
+- **Agentes:** Hermes Agent, MCP, Skills automation
+
+---
+
+## Infraestrutura
+
+- **GPU:** RTX 3060 (vfio-pci) — llama3.1 8B @ 63 tok/s, qwen2.5 14B @ 35 tok/s
+- **VMs:** Proxmox (anteriormente VM 104, excluída)
+- **Stack:** Ollama + Qdrant + n8n via Docker Compose
 
 ---
 
