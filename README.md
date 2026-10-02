@@ -5,6 +5,7 @@
 [![GitHub](https://img.shields.io/badge/Github-TiagoYancy-black?style=flat&logo=github)](https://github.com/TiagoYancy)
 [![Python](https://img.shields.io/badge/Python-3.14-blue?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Proxmox](https://img.shields.io/badge/Proxmox-FF1919?style=flat&logo=proxmox&logoColor=white)](https://www.proxmox.com/)
 
 ---
 
